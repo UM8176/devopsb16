@@ -13,5 +13,8 @@ resource "aws_internet_gateway" "default" {
     vpc_id = "${aws_vpc.default.id}"
 	tags = {
         Name = "devopsb16git-igw"
+        Owner = "saran"
+	environment = "Development"
+    DeployedBy = "Terraform"
     }
 }
