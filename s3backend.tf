@@ -1,4 +1,4 @@
-Terraform{
+terraform{
     backend "s3" {
         bucket = "saranterraform"
         key    = "devopsb16git.tfstate"
